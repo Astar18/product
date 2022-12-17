@@ -8,9 +8,9 @@ import jakarta.persistence.Id;
 @Entity(name =  "product")
 public class ProductDTO {
 	@Id
-	private Integer id;
+	private Integer id_producto;
 	private String name ;
-	private BigDecimal price;
+	private double price;
 	private int stock;
-	private boolean active;
+	private boolean status;
 }
